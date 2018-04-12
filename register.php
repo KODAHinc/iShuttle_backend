@@ -5,9 +5,11 @@ $password = $_POST["password"];
 $drivers_route= "A";
 $geolat= "6.670278";
 $geolng= "0.425833";
+$new_lat= "6.670278";
+$new_lng= "0.425833";
 
 $sql = "insert into Drivers_details (Username,Password) values ('$username','$password');";
-$sql2= "insert into Drivers_location (Drivers_route,Geolat,Geolng) values ('$drivers_route','$geolat','$geolng');";
+$sql2= "insert into Drivers_location (Drivers_route,Geolat,Geolng,NewGeolat,NewGeolng) values ('$drivers_route','$geolat','$geolng','$new_lat','$new_lng');";
 
 if(mysqli_query($con,$sql))
 {

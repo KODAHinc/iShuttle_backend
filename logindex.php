@@ -4,7 +4,7 @@
 
 <body>
 
-<form action="login.php" method="post">
+<form action="testlogin.php" method="post">
 <table>
 <tr>
 <td>Username :</td>

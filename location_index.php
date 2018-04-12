@@ -25,6 +25,16 @@
 <td>geolng :</td>
 <td><input type="text" name="geolng" /></td>
 </tr>
+
+<tr>
+<td>NewGeolat :</td>
+<td><input type="text" name="NewGeolat" /></td>
+</tr>
+
+<tr>
+<td>NewGeolng :</td>
+<td><input type="text" name="NewGeolng" /></td>
+</tr>
  
 </table>
 
